@@ -31,7 +31,7 @@ public class AtcMediator {
 		} else if (flight.status.equals(FlightStatus.IN_Q)) {
 			System.out.printf("Added for Training - Grand permission before landing - WARNING to %s ", flight.name);
 		} else {
-			System.out.printf("More added 23 May 21 Flight %s is already grounded  ", flight.name);
+			System.out.printf("More added 24 May 21 Flight %s is already grounded  ", flight.name);
 		}
 
 	}
